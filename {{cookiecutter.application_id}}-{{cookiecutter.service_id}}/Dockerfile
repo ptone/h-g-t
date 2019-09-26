@@ -1,4 +1,4 @@
-FROM gcr.io/svctk-images/demo-go as builder
+FROM gcr.io/svctk-images/demo-go
 COPY go.* /modbuild/
 WORKDIR /modbuild
 ENV GOPROXY=https://proxy.golang.org
